@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+img {
+    width: 75px;
+}
+
+
+body {
+    background-image: url("assets/body-fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.body-img {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    background-image: url("https://img.freepik.com/vetores-gratis/conjunto-de-plano-de-fundo-de-simbolos-de-moeda-digital-global-com-diagrama-de-circuito_1017-58804.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+label {
+    color:  #05ff48;;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+b {
+    color: #ffca00;;
+}
+
+
+select {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    appearance: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(128, 128, 128, 0.388);
+    cursor: pointer;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/228/895/original/brazil-3d-flag-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.currency-select {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    appearance: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(128, 128, 128, 0.388);
+    cursor: pointer;
+    background-image: url("https://www.eccobandeiras.com.br/image/cache/catalog/antigas/Estados-Unidos-1111x740.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+select:hover {
+    background-color: #2fd3ca;
+    color: #fff;
+     
+}
+
+.currency-select:hover {
+    background-color: #2fd3ca;
+    color:  #fff;
+    font-weight: 600;
+     
+}
+
+
+input {
+    width: 100%;
+    height: 48px;
+    padding-left: 11px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    cursor: pointer;
+    border: 3px solid #0e7677;
+    border-radius: 18px;
+
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background: #00d8d9;;
+    border: none;
+    color: #F4F4F4;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border-radius: 20px;
+    border:  1px solid #2fd3ca;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.nome-da-moeda, p {
+    color: #cae308;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1px;
+    border-radius: 7px;
+}
+
+
+.currency-value, .currency-value-to-convert {
+    font-size: 20px;
+    font-weight: 700;
+    color:  #cae308;
+    border: 2px solid #3cd7c0;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.currency-value-to-convert {
+    color:  #cae308;
+    border: 2px solid #f1c30c;
+    background: #09b5bf;
+}
+
+.currency-value {
+    color:  #cae308;
+    border: 2px solid #f1c30c;
+    background: #09b5bf;
+}

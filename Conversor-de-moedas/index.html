@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+    <img src="assets/logo.webp" class="body-img"  alt="Logo-moeda">
+
+    <main>
+        <label for="">
+            Converter <b>de</b>
+
+            <select onchange="trocarFundo('from')"  id="select-money">
+                <option value="real" data-img="./assets/bandeira-brasil.jpg">R$ Real</option>
+                <option value="dolar" data-img="./assets/bandeira.webp">$ Dólar</option>
+                <option value="euro" data-img="./assets/bandeira-euro.png">€ Euro</option>
+                <option value="bitcoin" data-img="./assets/bandeira-bitcoin.png">₿ Bitcoin</option>
+                <option value="libra" data-img="./assets/bandeira-libra.jpg">£ Libra</option>
+                <option value="franco suiço" data-img="./assets/bandeira-suiça.jpg">CHF Franco suiço</option>
+            </select>
+        </label>
+
+
+        <label for="">
+            Converter <b>para</b>
+
+            <select class="currency-select" >
+                <option value="dolar" data-img="./assets/bandeira.webp">US$ Dólar</option>
+                <option value="euro" data-img="./assets/bandeira-euro.png">€ Euro</option>
+                <option value="real" data-img="./assets/bandeira-brasil.jpg">R$ Real</option>
+                <option value="bitcoin" data-img="./assets/bandeira-bitcoin.png">₿ Bitcoin</option>
+                <option value="libra" data-img="./assets/bandeira-libra.jpg">£ Libra</option>
+                <option value="franco suiço" data-img="./assets/bandeira-suiça.jpg">CHF Franco suiço</option>
+            </select>
+        </label>
+
+        <label for="">
+            Valor
+            
+            <input class="input-currency" type="number" placeholder="R$ 10.0000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img class="convert-img" src="assets/bandeira-brasil.jpg" alt="Logo-moeda-a-converter">
+
+                <p class="nome-da-moeda">Real brasileiro</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+
+            <img class="arrow-img" src="assets/Vector (1).png" width="50px" alt="seta">
+
+            <div class="currency-box">
+                <img class="currency-img" src="assets/bandeira.webp" alt="Logo-moeda-convertida">
+
+                <p id="currency-name" class="nome-da-moeda-a-converter">Dólar americano</p>
+                <p class="currency-value">$ 0,000</p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
